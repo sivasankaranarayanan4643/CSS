@@ -1,0 +1,30 @@
+.pic
+{
+    width: 250px;
+}
+.rounded
+{
+    border-radius: 0.4rem;
+}
+.circle
+{
+    border-radius: 50%;
+}
+.bordered
+{
+    border: 7px solid white;
+    outline: 1px solid rgb(202, 198, 198)
+}
+.figure
+{
+    position: relative;
+    display: inline-block;
+}
+.caption
+{
+    position: absolute;
+    bottom: 6%;
+    left: 6%;
+    color: white;
+    
+}

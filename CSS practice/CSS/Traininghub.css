@@ -1,0 +1,152 @@
+*{
+    font-family: Roboto ,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+body
+{
+    background-color: white;
+    padding: 20px;
+}
+
+.microsoft
+{
+    display: flex;
+    align-items: center;
+}
+.outer
+{
+    min-height: calc(100vh - 40px);
+    height: calc(100vh - 40px);
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #e4e9f4 0%, #5B7596 50%);
+}
+.content
+{
+    display: flex;
+    width: 43%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.about
+{
+    width: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.title
+{
+    color: #2b347b;
+    margin: 10% 8%;
+    line-height: 40px;
+}
+.learn
+{
+    margin: 4%;
+    color: #999999;
+}
+.quotes
+{
+    margin: 2% 5%;
+    color: #767569;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+.login .input
+{
+    width: 75%;
+    color: #BABABA;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    
+}
+.login
+{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 50%;
+    box-shadow: 0 0 40px 16px rgba(0, 0, 0,0.22);
+    background-color: #17355E;
+}
+.inputbox
+{
+    color: #BABABA;
+    border:2px solid gray ;
+    outline: none;
+    width: 100%;
+    padding:3.7% 7%;
+    margin-bottom: 8%;
+    background-color: rgba(247, 246, 245,0);
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+}
+.signinbtn
+{
+    color: #BABABA;
+    margin-bottom: 6%;
+    font-size: 0.9rem;
+    transition: background-color 0.15s ease-in-out;
+}
+.microsoft
+{
+    color: #e2e1e1;
+    font-size: 0.9rem;
+    padding: 2% 8% 0;
+    margin-bottom: 20%;
+}
+.image
+{
+    width: 20%;
+}
+.forgot
+{
+    text-decoration: none;
+    color: #BABABA;
+}
+.forgot:hover
+{
+    color: #0d6efd;
+}
+.signinbtn:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255,0.3);
+}
+.microsoft:hover
+{
+    cursor: pointer;
+}
+.email:focus, .password:focus
+{
+    box-shadow: 0 0 4px 1px #0d6efd;
+}
+@media screen and  (max-width:1400px) {
+    .content
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 69%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .about
+    {
+        width: 60%;
+        min-width: 250px;
+        max-width: 230px;
+    }
+    .login
+    {
+        width: 70%;
+        min-width: 280px;
+        max-width: 300px;
+    }
+}

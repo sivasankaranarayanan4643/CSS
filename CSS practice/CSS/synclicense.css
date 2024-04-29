@@ -1,0 +1,266 @@
+*
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 13%;
+    min-height: 60px;
+    width: 100%;
+    align-items: center;
+}
+.nav{
+    list-style-type: none ;
+    display: inline-block;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    
+}
+.option
+{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.title
+{
+    width: 13%;
+    margin-right: 10%;
+}
+.buttons
+{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.synclogo
+{
+    width: 100%;
+}
+
+.btn
+{
+    padding: 2.5% 0.5%;
+    height: 90%;
+    margin-right: 2%;
+    color: white;
+    border-radius: 5px;
+    font-size: 13PX;
+    font-weight: 550;
+}
+.list-option
+{
+   width: auto;
+   margin: 0;
+   padding: 21px 3%;
+   font-size: 14px;
+   font-weight: 550;
+}
+
+.demo
+{
+    width: 40%;
+    background-color: rgba(255, 255, 255,0);
+    border: 1px solid white;
+    
+}
+.try
+{
+    background-color: #4a90e2;
+    border: 1px solid #4a90e2;;
+    width: 30%;
+}
+.try:hover{
+    background-color: #0073dc;
+    cursor: pointer;
+}
+.demo:hover
+{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.list-option:hover 
+{
+    background-color: rgba(255, 255, 255,0.4);
+    cursor: pointer;
+}
+.title:hover
+{
+    cursor: pointer;
+}
+.product-details, .support-details
+{
+    width: 70%;
+    margin: auto;
+    min-height: calc(100vh - 60px);
+    position: absolute;
+    display: none;
+    top: 60px;
+    left: 15%;
+    transition: all 0.25s ease-in-out;
+    
+}
+.company-details
+{
+    position: absolute;
+    top: 60px;
+    right: 29%;
+    width: 12%;
+    padding: 1.5% 0;
+    box-shadow: 0 0 30px 1px rgb(104, 103, 103);
+    border-radius: 3%;
+    display: none;
+}
+.help
+{
+    text-decoration: none;
+    color: #334155;
+    font-weight: 500;
+    font-size: 1rem;
+    width: auto;
+    
+}
+.company-option
+{
+    padding: 0;
+    list-style-type: none;
+}
+.company-list
+{
+    padding:7% 10%;
+    width: auto;
+}
+.product-list, .support-list
+{
+    list-style-type: none;
+    display:  flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2% 2%;
+    background-color:#F8FAFC;
+}
+.support-list
+{
+    justify-content: left;
+}
+.support-items
+{
+    margin-right: 3rem;
+}
+
+.list-items
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+.list-items:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+.products:hover + .product-details,.supports:hover +.support-details
+{
+    display: block;
+    cursor: pointer;
+}
+.product-details:hover,.support-details:hover{
+    display: block;
+    
+}
+.company-list:hover
+{
+    background-color: #F8FAFC;
+    cursor: pointer;
+}
+.company:hover + .company-details,.company-details:hover{
+    display: block;
+}
+@media screen and (max-width:1200px)
+{
+    .nav{
+        list-style-type: none ;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        padding-left:0;
+        position: relative;
+        left: -75%;
+    }
+    .navbar
+    {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        min-height: 60px;
+        padding-left: 0;
+    }
+    .list-option{
+        border-bottom: 1px solid white;
+        width: 100vw;
+        margin: 0;
+        padding: 21px 0;
+        font-size: 14px;
+        font-weight: 550;
+        padding-left: 0;
+        text-indent: 10px;
+    }
+    .buttons
+    {
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        z-index: 0;
+    }
+    .title
+    {
+        width: 30%;
+        margin-right: 10%;
+    }
+    .btn
+    {
+        min-width: 150px;
+    }
+    .product-details, .support-details
+    {
+        width: 100vw;
+        margin: auto;
+        min-height: auto;
+        position: absolute;
+        display: none;
+        top: 60px;
+        left: 0;
+        transition: all 0.25s ease-in-out;
+        
+    }
+    .support-details
+    {
+        top: 100px;
+    }
+    
+    .company-details
+    {
+        position: absolute;
+        top: 220px;
+        z-index: 1;
+        width: 200px;
+        left: 2%;
+        padding: 1.5% 0;
+        box-shadow: 0 0 30px 1px rgb(104, 103, 103);
+        border-radius: 3%;
+        display: none;
+        background-color: white;
+    }
+}

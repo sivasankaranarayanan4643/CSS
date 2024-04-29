@@ -1,0 +1,122 @@
+.btn,.borderbtn
+{
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 0.7rem ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.yellowbtn
+{
+    background-color: rgb(255, 184, 78);
+    color: black;
+}
+.orangebtn
+{
+    background-color: rgb(255, 40, 40);
+}
+.bluebtn
+{
+    background-color: rgb(70, 152, 224);
+}
+.greenbtn
+{
+    background-color: rgb(33, 177, 53);
+}
+.arialbtn
+{
+    background-color: rgb(46, 154, 154);
+}
+.blackbtn
+{
+    background-color: black;
+}
+.disablebtn
+{
+    background-color: rgb(164, 162, 162);
+}
+.borderbtn{
+    color: black;
+    background-color: rgba(0, 0, 0,0);
+}
+.nofill
+{
+    border: 0.01rem solid rgb(219, 213, 213);
+    outline: none;
+    color: black;
+}
+.fill{
+    background-color: rgb(170, 163, 163);
+    border-radius: 0.2rem;
+}
+.blueborder
+{
+    border: 0.01rem solid rgb(57, 128, 241);
+    border-radius: 0.2rem;
+}
+.redborder
+{
+    border: 0.01rem solid rgb(255, 40, 40);
+    border-radius: 0.4rem;
+    color: rgb(255, 40, 40);
+}
+.greenborder
+{
+    border: 0.01rem solid rgb(33, 177, 53);
+    border-radius: 1rem;
+}
+.shadow
+{
+    background-color: rgb(255, 40, 40);
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 1px 0px  black;
+}
+.blackborder
+{
+    background-color: black;
+    padding: 0.7rem 0.9rem ;
+    color: white;
+}
+.circlebtn
+{
+    border-radius: 50%;
+    padding: 0.5rem 0.95rem;
+    font-size: 1.9rem;
+    border: none;
+    outline: none;
+    color: white;
+    margin-bottom: 0.7rem ;
+}
+.black
+{
+    background-color: black;
+    
+}
+.arial
+{
+    background-color: rgb(46, 154, 154);
+}
+.gray
+{
+    background-color: rgb(170, 163, 163);
+    color: black;
+}
+.list
+{
+    display: flex;
+}
+.button3
+{
+    background-color: rgb(135, 135, 135);
+    color: white;
+}
